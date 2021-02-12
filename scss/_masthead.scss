@@ -8,7 +8,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-position: top left;
   background-attachment: scroll;
-  background-size: 30%;
+  background-size: 20rem;
   background-image: url("/img/mancha.png");
   .masthead-content {
     z-index: 1;
@@ -18,7 +18,7 @@ header.masthead {
     }
     .masthead-subheading {
       color: $secondary;
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
   }
 }
@@ -32,7 +32,7 @@ header.masthead {
         font-size: 6rem;
       }
       .masthead-subheading {
-        font-size: 3rem;
+        font-size: 2rem;
       }
     }
   }
