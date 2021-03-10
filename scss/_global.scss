@@ -11,6 +11,10 @@ h6 {
   @include heading-font;
 }
 
+a {
+  color: #c9574f;
+}
+
 .btn-xl {
   text-transform: uppercase;
   padding: 1.5rem 3rem;

@@ -17,8 +17,9 @@ header.masthead {
       font-size: 4rem;
     }
     .masthead-subheading {
+      margin-top: 1em;
       color: $secondary;
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
 }
@@ -32,7 +33,7 @@ header.masthead {
         font-size: 6rem;
       }
       .masthead-subheading {
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
     }
   }
