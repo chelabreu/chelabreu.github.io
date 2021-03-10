@@ -73,9 +73,9 @@ function css() {
     .pipe(autoprefixer({
       cascade: false
     }))
-    .pipe(header(banner, {
-      pkg: pkg
-    }))
+    // .pipe(header(banner, {
+    //   pkg: pkg
+    // }))
     .pipe(gulp.dest("./css"))
     .pipe(rename({
       suffix: ".min"
