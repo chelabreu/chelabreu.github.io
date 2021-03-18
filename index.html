@@ -39,6 +39,8 @@
   <link href="css/one-page-wonder.min.css" rel="stylesheet">
   <script defer src="https://kit.fontawesome.com/40e54a65b8.js" crossorigin="anonymous"></script>
 
+  <link rel="stylesheet" href="whatsapp/floating-wpp.min.css">
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-G7JDR7HJQ9"></script>
   <script>
@@ -56,8 +58,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
     <div class="container">
       <a class="navbar-contact" href="https://wa.me/554488067327" target="_blank">
-        <img src="img/whatsapp.svg" width="20" height="20" alt="Whatsapp" />
-        <span>Fale comigo</span>
+        <img src="img/logo.svg" width="80" alt="Whatsapp" />
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -247,6 +248,8 @@
               target="_blank">(44) 98806-1024</a></p>
           <p class="contact-link"><i class="fab fa-instagram"></i><a
               href="https://www.instagram.com/psicologarachelabreu/" target="_blank">@psicologarachelabreu</a></p>
+          <p class="contact-link"><i class="far fa-envelope"></i><a href="mailto:psicologarachelabreu@gmail.com"
+              target="_blank">email</a></p>
         </div>
       </div>
 
@@ -275,11 +278,28 @@
     <!-- /.container -->
   </footer>
 
+  <div id="whatsapp-me" />
+
   <!-- Bootstrap core JavaScript -->
   <script defer src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="whatsapp/floating-wpp.min.js"></script>
 
   <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
   <script type="text/javascript">
+    /* whatsapp floating button */
+    $(function () {
+      $('#whatsapp-me').floatingWhatsApp({
+        phone: '554488067327',
+        headerTitle: 'Rachel Abreu - WhatsApp',
+        popupMessage: 'Olá, como posso te ajudar?',
+        showPopup: true,
+        autoOpenTimeout: 15000,
+        position: "right",
+        size: "64px",
+        zIndex: 100
+      });
+    });
     /* curator-feed-default-feed-layout */
     (function () {
       var i, e, d = document, s = "script"; i = d.createElement("script"); i.async = 1;
