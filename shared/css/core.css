@@ -1,0 +1,52 @@
+.mr-050 {
+    margin-right: 0.5rem;
+}
+
+.mr-100 {
+    margin-right: 1rem;
+}
+
+.mr-200 {
+    margin-right: 2rem;
+}
+
+.mt-000 {
+    margin-top: 0;
+}
+
+.mb-000 {
+    margin-bottom: 0;
+}
+
+.p-000 {
+    padding: 0;
+}
+
+.pt-000 {
+    padding-top: 0;
+}
+
+.pb-000 {
+    padding-bottom: 0;
+}
+
+.b-radius-100 {
+    border-radius: 100%;
+}
+
+header.avatar {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+}
+
+header.avatar>div>* {
+    margin-bottom: 0.1rem;
+}
+
+header.avatar>img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    margin-right: 1rem;
+}
