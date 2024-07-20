@@ -153,7 +153,6 @@ header.masthead .masthead-content .masthead-subheading {
 
 .section-header {
   display: inline-block;
-  white-space: nowrap;
   overflow: hidden;
 }
 
@@ -178,8 +177,8 @@ header.masthead .masthead-content .masthead-subheading {
     height: 3rem;
   }
   .section-header span {
-    font-size: 1.5rem;
-    margin-left: 0.5rem;
+    font-size: 1.25rem;
+    margin-left: 0.25rem;
   }
 }
 
